@@ -18,13 +18,12 @@ body {
 }
 
 #main {
-    text-align:center;
     background-color: rgb(66, 235, 204);
 }
 #textinfo{
   display:inline-block;
-  width: 50%;
-  text-align: center;
+  width: 48%;
+  margin: auto;
 }
 
 #title {
@@ -115,11 +114,10 @@ footer {
 #pixel {
   display: inline-block;
 	font-family: "Roboto", sans-serif;
-  margin: 0px;
+  margin: auto;
 	padding: 0px;
-	position: relative;
-
 	box-sizing: border-box;
+  position:static;
 }
 
 /* phone */
