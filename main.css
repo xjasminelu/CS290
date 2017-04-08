@@ -19,10 +19,12 @@ body {
 
 #main {
     background-color: rgb(66, 235, 204);
+    height: 100%;
 }
 #textinfo{
   display:inline-block;
   width: 48%;
+  height: 100%;
   margin: auto;
 }
 
@@ -32,7 +34,7 @@ body {
   font-size: 400%;
   color: white;
   max-width: 600px;
-  padding-top: 30%;
+  padding-top: 10%;
   margin: auto;
 }
 
@@ -117,7 +119,7 @@ footer {
   margin: auto;
 	padding: 0px;
 	box-sizing: border-box;
-  position:static;
+  position:relative;
 }
 
 /* phone */
