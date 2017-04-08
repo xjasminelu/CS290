@@ -24,12 +24,13 @@ body {
 #textinfo{
   display:inline-block;
   width: 50%;
+  text-align: right;
 }
 
 #title {
   /*float:left;*/
   font-family: 'Pacifico', cursive;
-  font-size: 50;
+  font-size: 400%;
   color: white;
   max-width: 600px;
   margin: auto;
