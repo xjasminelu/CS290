@@ -24,7 +24,7 @@ body {
 #textinfo{
   display:inline-block;
   width: 50%;
-  text-align: right;
+  text-align: center;
 }
 
 #title {
@@ -44,9 +44,15 @@ body {
   font-size: 90%;
 }
 
+header {
+  font-family: 'Bungee Hairline';
+  font-size: 400%;
+}
+
 footer {
         position: relative;
         font-family: 'Raleway';
+        height: 3px;
         min-width: 100%;
     }
 
@@ -57,7 +63,7 @@ footer {
 #pixel {
   display: inline-block;
 	font-family: "Roboto", sans-serif;
-	margin: 0px;
+  margin: 0px;
 	padding: 0px;
 	position: relative;
 
