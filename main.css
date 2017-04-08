@@ -20,6 +20,7 @@ body {
 #main {
     background-color: rgb(66, 235, 204);
     height: 100%;
+    padding: 10% 10% 10% 10%;
 }
 #textinfo{
   display:inline-block;
@@ -34,7 +35,6 @@ body {
   font-size: 400%;
   color: white;
   max-width: 600px;
-  padding-top: 10%;
   margin: auto;
 }
 
