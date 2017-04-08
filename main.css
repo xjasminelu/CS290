@@ -33,6 +33,7 @@ body {
   font-size: 400%;
   color: white;
   max-width: 600px;
+  padding-top: 30%;
   margin: auto;
 }
 
@@ -44,16 +45,67 @@ body {
   font-size: 90%;
 }
 
+#github {
+  padding-top: 5%;
+  color: white;
+  font-size: 300%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+description {
+  font-family: 'Raleway';
+  color: black;
+}
+
 header {
   font-family: 'Bungee Hairline';
   font-size: 400%;
+  color: white;
+}
+.section{
+  padding: 10% 10% 10% 10%;
+}
+
+#proposal{
+  background-color: rgb(62, 205, 179);
+}
+
+#todo{
+  background-color: rgb(54, 179, 156);
+}
+
+#todo ol{
+  text-align: left;
+  padding-left: 20%;
+}
+
+#team{
+  background-color: rgb(44, 145, 127);
+}
+
+member{
+  display:inline-block;
+
+}
+
+tasks{
+  font-size: 80%;
+}
+
+tasks li{
+  text-align: left;
 }
 
 footer {
         position: relative;
         font-family: 'Raleway';
-        height: 3px;
         min-width: 100%;
+        background-color: rgb(36, 117, 103);
+        font-size: 60%;
     }
 
 /* CSS Code from CodePen by Herman Grove
