@@ -187,7 +187,7 @@ footer {
 	width: 193px;
 	height: 344px;
 
-	background: rgba(0, 0, 0, 0.4) url("http://cdn01.androidauthority.net/wp-content/uploads/2016/10/Google-Pixel-demo-wallpaper.jpg") center center;
+	background: rgba(0, 0, 0, 0.4) url("./InitialBackground.jpg") center center;
 	background-size: cover;
 
 	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.08) inset, 0px 3px 1px -2px rgba(0,0,0,0.17) inset;
@@ -342,54 +342,6 @@ h2
 	}
 }
 
-#check{
-  display:inline;
-  font-size: 20;
-}
-/*Code from CodePen by Niels de Rijk
-http://codepen.io/nielsderijk/pen/zBgjbG?editors=1000#0*/
-/*svg {margin: 100px auto; display: inline-block;}*/
-
-.line1, .line2 {
-  stroke:#FFFFFF;
-  stroke-width:4;
-  stroke-linecap:round;
-  stroke-miterlimit:10;
-}
-
-.circle {
-  fill:none;
-  stroke:#FFFFFF;
-  stroke-width:3;
-  stroke-miterlimit:10;
-}
-
-.line1 {
-  stroke-dasharray: 180;
-  stroke-dashoffset: 0;
-  animation: line1 1.8s ease-in-out;
-}
-
-.line2 {
-  stroke-dasharray: 100;
-  stroke-dashoffset: 0;
-  animation: line2 0.9s ease-in-out;
-}
-
-@keyframes line1 {
-  0% {
-    stroke-dashoffset: 180;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes line2 {
-  0% {
-    stroke-dashoffset: 100;
-  }
-  100% {
-    stroke-dashoffset: 200;
-  }
+img{
+  height: 50px;
 }
